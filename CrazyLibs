@@ -45,13 +45,21 @@ def main():
     	and a year’s supply of
     <input type="text" 9="9" placeholder = "noun" style = "display:inline;">
         .
-Second prize will be a twenty one foot long
-<input type="text" 10="10" placeholder = "noun" style = "display:inline;">
+	Second prize will be a twenty one foot long
+    <input type="text" 10="10" placeholder = "noun" style = "display:inline;">
         .
- Third prize will be a full-color
-<input type="text" 11="11" placeholder = "noun" style = "display:inline;">
- 
- 
+ 	Third prize will be a full-color
+    <input type="text" 11="11" placeholder = "noun" style = "display:inline;">
+	plus a set of
+    <input type="text" 12="12" placeholder = "animal plural" style = "display:inline;">
+    	.
+	Each entry must be accompanied by a stamped, self-addressed
+    <input type="text" 13="13" placeholder = "extraterrestrial being" style = "display:inline;">
+    	.
+    	The decision will be final and in the event of a tie, duplicate 
+    <input type="text" 14="14" placeholder = "noun plural" style = "display:inline;">
+    	will be awarded.
+	
  <input type="submit" value="Submit">
     </form> '''
  
@@ -62,14 +70,4 @@ Second prize will be a twenty one foot long
 main()
  
  
-A gigantic contest in which you already may be a ___(noun,singular).
-Anyone, and we mean anyone, can enter this ___(adjective) contest.
-Just follow these ___(adjective) rules.
-Write down in ___(number) words or less why you think ___(your Mother’s name) should be elected ___(noun) Of The
-Year. Remember he/she does not know that you think so ___(adverb) of her.
-First prize will be a deluxe, three-speed ___(piece of technology) and a year’s supply of ___(food item).
-Second prize will be a twenty one foot long ___(noun). Third prize will be a full-color ___(noun)
-plus a set of ___(animal,plural).
-Each entry must be accompanied by a stamped, self-addressed ___(extraterrestrial being).
-The decision will be final and in the event of a tie, duplicate ___(noun,plural) will be awarded.
- 
+
