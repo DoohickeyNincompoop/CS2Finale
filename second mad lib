@@ -1,0 +1,72 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+ 
+import cgi
+ 
+def htmlTop():
+	print '''Content-type:text/html\n\n
+    	<!DOCTYPE html>
+    	<html>
+        	<head>
+            	<meta charset="utf-8">
+            	<title> mAd LiBs </title>
+        	</head>
+        	<body>'''
+ 
+def htmlTail():
+	print '''</body>
+    	</html>'''
+ 
+ 
+def main():
+	htmlTop()
+	print '<h1>  Angry LIBs</h1>'
+	print '''My "Dream Man" should, first of all be very
+      <form style = "display:inline;" action="NCS.py" method="get">
+   	  <input type="text" name="1" placeholder = "adjective" style = "display:inline;">
+    and 
+   	  <input type="text" name="2" placeholder = "adjective" style = "display:inline;">  
+    .
+    He should have a physique like
+    <input type="text" name="3" placeholder = "name of a celebrity" style = "display:inline;">
+    , a profile like
+    <input type="text" name="4" placeholder = "name of another celebrity" style = "display:inline;">
+    , and the intelligence of a/an
+    <input type="text" name="5" placeholder = "animal" style = "display:inline;">
+    	.
+      He must be polite and must always remember to 
+    <input type="text" name="6" placeholder = "verb" style = "display:inline;">
+    	my
+    <input type="text" name="7" placeholder = "noun" style = "display:inline;">
+    	, to tip his
+    <input type="text" name="8" placeholder = "noun" style = "display:inline;">
+    	and to take my
+    <input type="text" name="9" placeholder = "body part" style = "display:inline;">
+        when crossing the street. He should move
+    <input type="text" name="10" placeholder = "adverb" style = "display:inline;">
+        , have a/an
+    <input type="text" name="11" placeholder = "adjective" style = "display:inline;">
+	      voice, and should always dress
+    <input type="text" name="12" placeholder = "adverb" style = "display:inline;">
+    	.
+      I would also like him to be a/an 
+    <input type="text" name="13" placeholder = "adjective" style = "display:inline;">
+    	dancer, and when we are alone he should whisper 
+    <input type="text" name="14" placeholder = "adjective" style = "display:inline;">
+    	nothings into my
+    <input type="text" name="15" placeholder = "body part" style = "display:inline;">
+    	and hold my
+    <input type="text" name="16" placeholder = "another body part" style = "display:inline;">
+    	.
+      I know the perfect man is hard to find. In fact, the only one I can think of is
+    <input type="text" name="17" placeholder = "name of a male person in the room" style = "display:inline;">
+    	.
+	
+ <input type="submit" value="Submit">
+    </form> '''
+ 
+ 
+ 
+	htmlTail()
+ 
+main()
