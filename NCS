@@ -32,7 +32,7 @@ Second prize will be a twenty one foot long <em>{}</em>. Third prize will be a f
 plus a set of <em>{}</em>.
 Each entry must be accompanied by a stamped, self-addressed <em>{}</em>.
 The decision will be final and in the event of a tie, duplicate <em>{}</em> will be awarded.
-".format(formData.getvalue('1'),formData.getvalue('2'),formData.getvalue('3'),formData.getvalue('4'),formData.getvalue('5')
+.format(formData.getvalue('1'),formData.getvalue('2'),formData.getvalue('3'),formData.getvalue('4'),formData.getvalue('5')
 ,formData.getvalue('6'),formData.getvalue('7'),formData.getvalue('8'),formData.getvalue('9'),formData.getvalue('10')
 ,formData.getvalue('11'),formData.getvalue('12'),formData.getvalue('13'),formData.getvalue('14'))
 	htmlTail()
