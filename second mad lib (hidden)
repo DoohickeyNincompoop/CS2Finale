@@ -1,0 +1,62 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+ 
+import cgi
+ 
+def htmlTop():
+	print '''Content-type:text/html\n\n
+    	<!DOCTYPE html>
+    	<html>
+        	<head>
+            	<meta charset="utf-8">
+            	<title> mAd LiBs </title>
+        	</head>
+        	<body>'''
+ 
+def htmlTail():
+	print '''</body>
+    	</html>'''
+ 
+ 
+def main():
+	htmlTop()
+	print '<h1>  Angry LIBs</h1>'
+	print '''
+    <form style = "display:inline;" action="NCS.py" method="get">
+   	<input type="text" 1="1" placeholder = "noun, singular" style = "display:inline;">
+      <br>
+   	<input type="text" 2="2" placeholder = "adj" style = "display:inline;">  
+      <br>
+    <input type="text" 3="3" placeholder = "adj" style = "display:inline;">
+      <br>
+    <input type="text" 4="4" placeholder = "number" style = "display:inline;">
+      <br>
+    <input type="text" 5="5" placeholder = "your mother's name" style = "display:inline;">
+    	<br>
+    <input type="text" 6="6" placeholder = "noun" style = "display:inline;">
+    	<br>
+    <input type="text" 7="7" placeholder = "adverb" style = "display:inline;">
+    	<br>
+    <input type="text" 8="8" placeholder = "piece of technology" style = "display:inline;">
+    	<br>
+    <input type="text" 9="9" placeholder = "noun" style = "display:inline;">
+      <br>
+    <input type="text" 10="10" placeholder = "noun" style = "display:inline;">
+        <br>
+    <input type="text" 11="11" placeholder = "noun" style = "display:inline;">
+	      <br>
+    <input type="text" 12="12" placeholder = "animal plural" style = "display:inline;">
+    	  <br>
+    <input type="text" 13="13" placeholder = "extraterrestrial being" style = "display:inline;">
+    	  <br> 
+    <input type="text" 14="14" placeholder = "noun plural" style = "display:inline;">
+    	  <br>
+	
+ <input type="submit" value="Submit">
+    </form> '''
+ 
+ 
+ 
+	htmlTail()
+ 
+main()
