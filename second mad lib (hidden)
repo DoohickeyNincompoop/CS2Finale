@@ -22,38 +22,44 @@ def main():
 	htmlTop()
 	print '<h1>  Angry LIBs</h1>'
 	print '''
-    <form style = "display:inline;" action="NCS.py" method="get">
-   	<input type="text" 1="1" placeholder = "noun, singular" style = "display:inline;">
-      <br>
-   	<input type="text" 2="2" placeholder = "adj" style = "display:inline;">  
-      <br>
-    <input type="text" 3="3" placeholder = "adj" style = "display:inline;">
-      <br>
-    <input type="text" 4="4" placeholder = "number" style = "display:inline;">
-      <br>
-    <input type="text" 5="5" placeholder = "your mother's name" style = "display:inline;">
-    	<br>
-    <input type="text" 6="6" placeholder = "noun" style = "display:inline;">
-    	<br>
-    <input type="text" 7="7" placeholder = "adverb" style = "display:inline;">
-    	<br>
-    <input type="text" 8="8" placeholder = "piece of technology" style = "display:inline;">
-    	<br>
-    <input type="text" 9="9" placeholder = "noun" style = "display:inline;">
-      <br>
-    <input type="text" 10="10" placeholder = "noun" style = "display:inline;">
-        <br>
-    <input type="text" 11="11" placeholder = "noun" style = "display:inline;">
-	      <br>
-    <input type="text" 12="12" placeholder = "animal plural" style = "display:inline;">
-    	  <br>
-    <input type="text" 13="13" placeholder = "extraterrestrial being" style = "display:inline;">
-    	  <br> 
-    <input type="text" 14="14" placeholder = "noun plural" style = "display:inline;">
-    	  <br>
+        <form style = "display:inline;" action="NCS.py" method="get">
+        <input type="text" name="1" placeholder = "adjective" style = "display:inline;">
+            <br>
+        <input type="text" name="2" placeholder = "adjective" style = "display:inline;">  
+            <br>
+        <input type="text" name="3" placeholder = "adj" style = "display:inline;">
+            <br>
+        <input type="text" name="4" placeholder = "name of a celebrity" style = "display:inline;">
+            <br>
+        <input type="text" name="5" placeholder = "name of another celebrity" style = "display:inline;">
+            <br>
+        <input type="text" name="6" placeholder = "animal" style = "display:inline;">
+            <br>
+        <input type="text" name="7" placeholder = "verb" style = "display:inline;">
+            <br>
+        <input type="text" name="8" placeholder = "noun" style = "display:inline;">
+            <br>
+        <input type="text" name="9" placeholder = "noun" style = "display:inline;">
+            <br>
+        <input type="text" name="10" placeholder = "body part" style = "display:inline;">
+            <br>
+        <input type="text" name="11" placeholder = "adverb" style = "display:inline;">
+            <br>
+        <input type="text" name="12" placeholder = "adjective" style = "display:inline;">
+            <br>
+        <input type="text" name="13" placeholder = "adverb" style = "display:inline;">
+            <br> 
+        <input type="text" name="14" placeholder = "adjective" style = "display:inline;">
+            <br>
+        <input type="text" name="15" placeholder = "noun plural" style = "display:inline;">
+            <br>
+        <input type="text" name="16" placeholder = "noun plural" style = "display:inline;">
+            <br>
+        <input type="text" name="17" placeholder = "noun plural" style = "display:inline;">
+            <br>
 	
  <input type="submit" value="Submit">
-    </form> '''
+ 	</form> '''
  
  
  
