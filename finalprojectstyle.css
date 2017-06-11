@@ -1,0 +1,15 @@
+body {
+    background-color: azure;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 850px;
+    margin-left: 850px;
+    margin-right: 850px;
+    margin-top: 0px;
+    padding: inherit;
+    line-height: 200%;
+}
+
+h1 {
+    text-align: center
+}
