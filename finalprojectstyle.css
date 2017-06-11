@@ -7,15 +7,16 @@ body {
     margin-top: 0px;
     padding: inherit;
     line-height: 400%;
-    background-image: url(https://goo.gl/rsNIDb);
+    background-image: url(https://goo.gl/o90djL);
     background-size: cover;
-    background-repeat: repeat-y;
-    background-attachment: fixed;
+    color: white;
+    text-shadow: #EEEE00 0 0 10px;
+    font-size: 25px;
     overflow: hidden;
-    color: white;   
 }
 
 h1 {
     text-align: center;
     color: gray;
 }
+
