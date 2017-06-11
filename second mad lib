@@ -8,7 +8,7 @@ def htmlTop():
     	<!DOCTYPE html>
     	<html>
         	<head>
-			<link rel="stylesheet" type="text/css" href="finalprojectstyle.css">
+			<link rel="stylesheet" type="text/css" href="finalprojectstyle2.css">
             		<meta charset="utf-8">
             		<title> mAd LiBs </title>
         	</head>
