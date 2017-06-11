@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 27%;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 0px;
+    padding: inherit;
+    line-height: 400%;
+    background-image: url(https://goo.gl/rsNIDb);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: white;   
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
