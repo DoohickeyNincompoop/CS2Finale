@@ -23,7 +23,7 @@ def main():
 	htmlTop()
 	print '<h1>  Angry LIBs</h1>'
 	print '''My "Dream Man" should, first of all be very
-      <form style = "display:inline;" action="NCS.py" method="get">
+      <form style = "display:inline;" action="NCS2.py" method="get">
    	  <input type="text" name="1" placeholder = "adjective" style = "display:inline;">
     and 
    	  <input type="text" name="2" placeholder = "adjective" style = "display:inline;">  
