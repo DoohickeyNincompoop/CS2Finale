@@ -1,0 +1,11 @@
+body {
+    background-image: url(https://goo.gl/j2qHph);
+    text-align: center;
+    padding: inherit;
+    line-height: 400%;
+    background-size: cover;
+    font-size: 20px;
+    overflow: hidden;
+    text-shadow: #EEEE00 0 0 10px;
+    color: white;
+}
