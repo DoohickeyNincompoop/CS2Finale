@@ -27,10 +27,10 @@ def main():
    	  <input type="text" name="1" placeholder = "noun, singular" style = "display:inline;">
     .
     Anyone, and we mean anyone, can enter this
-   	  <input type="text" name="2" placeholder = "adj" style = "display:inline;">  
+   	  <input type="text" name="2" placeholder = "adjective" style = "display:inline;">  
     contest.
     Just follow these
-    <input type="text" name="3" placeholder = "adj" style = "display:inline;">
+    <input type="text" name="3" placeholder = "adjective" style = "display:inline;">
     rules.
     Write down in
     <input type="text" name="4" placeholder = "number" style = "display:inline;">
@@ -52,13 +52,13 @@ def main():
  	Third prize will be a full-color
     <input type="text" name="11" placeholder = "noun" style = "display:inline;">
 	plus a set of
-    <input type="text" name="12" placeholder = "animal plural" style = "display:inline;">
+    <input type="text" name="12" placeholder = "animal, plural" style = "display:inline;">
     	.
 	Each entry must be accompanied by a stamped, self-addressed
     <input type="text" name="13" placeholder = "extraterrestrial being" style = "display:inline;">
     	.
     	The decision will be final and in the event of a tie, duplicate 
-    <input type="text" name="14" placeholder = "noun plural" style = "display:inline;">
+    <input type="text" name="14" placeholder = "noun, plural" style = "display:inline;">
     	will be awarded.
 	
  <input type="submit" value="Submit">
@@ -69,6 +69,7 @@ def main():
 	htmlTail()
  
 main()
+
 
 
  
