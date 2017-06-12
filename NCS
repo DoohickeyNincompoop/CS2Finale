@@ -1,46 +1,41 @@
 #!/usr/bin/python
- 
-import cgi
- 
-x = []
- 
-def htmlTop():
-	print '''Content-type:text/html\n\n\
-	<!DOCTYPE html>
-	<html>
-    	<head>
-        	<meta charset="utf-8"/>
-        	<title>Name Form.</title>
-    	</head>
-    	<body>
-    	'''
- 
-def htmlTail():
-	print '''</body>
-    	</html>'''
- 
-def main():
-	formData = cgi.FieldStorage()
-	htmlTop()
-	print "A gigantic contest in which you already may be a <em>{}</em>.
-	Anyone, and we mean anyone, can enter this <em>{}</em> contest.
-	Just follow these <em>{}</em> rules.
-	Write down in <em>{}</em> words or less why you think <em>{}</em> should be elected <em>{}</em> Of TheYear. 
-	Remember he/she does not know that you think so <em>{}</em> of her.
-	First prize will be a deluxe, three-speed <em>{}</em> and a year’s supply of <em>{}</em>.
-	Second prize will be a twenty one foot long <em>{}</em>. Third prize will be a full-color <em>{}</em>
-	plus a set of <em>{}</em>.
-	Each entry must be accompanied by a stamped, self-addressed <em>{}</em>.
-	The decision will be final and in the event of a tie, duplicate <em>{}</em> will be awarded."
-	.format(formData.getvalue('1'),formData.getvalue('2'),formData.getvalue('3'),formData.getvalue('4'),formData.getvalue('5'),
-		formData.getvalue('6'),formData.getvalue('7'),formData.getvalue('8'),formData.getvalue('9'),formData.getvalue('10'),
-		formData.getvalue('11'),formData.getvalue('12'),formData.getvalue('13'),formData.getvalue('14'))
-	htmlTail()
- 
- 
-if __name__=='__main__':
-  try:
-    main()
-  except:
-    cgi.print_exception()
 
+import cgi
+
+def htmlTop():
+        print '''Content-type:text/html\n\n
+        <!DOCTYPE html>
+        <html>
+        <head>
+                <link rel="stylesheet" type="text/css" href="finalprojectstyle.css">
+                <meta charset="utf-8">
+                <title>mAd LiBs</title>
+        </head>
+        </body>
+        '''
+
+def htmlTail():
+        print '''</body>
+        </html>'''
+
+def main():
+        formData = cgi.FieldStorage()
+        htmlTop()
+        print '''A gigantic contest in which you already may be a <em>{}</em>.
+        Anyone, and we mean anyone, can enter this <em>{}</em> contest.
+        Just follow these <em>{}</em> rules.
+        Write down in <em>{}</em> words or less why you think <em>{}</em> should be elected <em>{}</em> of the Year.
+        Remember she does not know that you think so <em>{}</em> of her.
+        First prize will be a deluxe, three-speed <em>{}</em> and a year's supply of <em>{}</em>.
+        Second prize will be a twenty-one foot long <em>{}</em>.
+        Third prize will be a full-color <em>{}</em> plus a set of <em>{}</em>.
+        Each entry must be accompanied by a stamped, self-addressed <em>{}</em>.
+        The decision will be final and in the event of a tie, duplicate <em>{}</em> will be awared.
+        '''.format(formData.getvalue("1"),formData.getvalue("2"),formData.getvalue("3"),formData.getvalue("4"),formData.getvalue("5"),formData.getvalue("6"),formData.getvalue("7"),formData.getvalue("8"),formData.getvalue("9"),formData.getvalue("10"),formData.getvalue("11"),formData.getvalue("12"),formData.getvalue("13"),formData.getvalue("14"))
+        htmlTail()
+
+if __name__=='__main__':
+        try:
+                main()
+        except:
+                cgi.print_exception()
